@@ -1,10 +1,11 @@
 mod interfaces {
-    pub mod exemple;
-    pub mod counter;
+    pub mod ERC20;
 }
 
 mod core {
-    pub mod exemple;
-    pub mod counter;
     pub mod myERC20;
+}
+
+mod components{
+    pub mod ERC20Component;
 }
